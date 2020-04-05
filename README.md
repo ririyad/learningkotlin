@@ -10,7 +10,7 @@ Notes while learning kotlin
   - booleans
   - arrays
   - strings
-  - We can use underscore for numeric literals:  
+- We can use underscore for numeric literals:  
  ```kotlin 
       val oneMillion = 1_000_000
 ```
