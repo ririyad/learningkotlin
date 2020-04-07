@@ -1,6 +1,8 @@
 # learningkotlin
 Notes while learning kotlin
 
+> _if I don't get introduced any term by term of writing, I will add '(?)'_
+
 ## Basic Types
 
 - In Kotlin, everything is an object **type** in the sense that we can call member functions and properties on any variable.
@@ -14,3 +16,12 @@ Notes while learning kotlin
  ```kotlin 
       val oneMillion = 1_000_000
 ```
+
+## OOP
+- `class` can be empty. In that case `{}` can be omitted. Example: `class Empty`
+- `class` has one primary constructor (which cannont contain any code) and one or more secondary constructors
+- The primary constructor is the part of the class header. For example: 
+```kotlin
+ class Employee constructor(firstName: String) {...}
+ ```
+ - The `constructor` keyword can be omitted if the primary constrcutor has no annotations or visibility modifiers.
