@@ -25,3 +25,16 @@ Notes while learning kotlin
  class Employee constructor(firstName: String) {...}
  ```
  - The `constructor` keyword can be omitted if the primary constrcutor has no annotations or visibility modifiers.
+ 
+ ## Input Output
+ 
+ Scenario 1: Based on the number of testcase take 2 inputs from console and print the sum of them
+ 
+ ```kotlin
+ val testCase = readLine()!!.toInt()
+ 
+ for(i in 1..testCase) {
+   val(a, b) = readLine()!!.split(" ").map{ it.toInt() }
+   println(a+b)
+ }
+ ```
