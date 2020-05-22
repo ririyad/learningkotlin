@@ -28,7 +28,7 @@ Notes while learning kotlin
  
  ## Input Output
  
- __**Scenario 1: Based on the number of testcase take 2 inputs from console and print the sum of them**__
+ __*Scenario 1: Based on the number of testcase take 2 inputs from console and print the sum of them*__
  
  ```kotlin
  val testCase = readLine()!!.toInt()
